@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delicake | Premium Handcrafted Custom Cakes Bulawayo</title>
+    <title>Delicake | Luxury Custom Cakes Bulawayo</title>
     <style>
         /* --- Reset & Global Styles --- */
         * {
@@ -14,45 +14,45 @@
         }
 
         body {
-            background-color: #fffbfb;
-            color: #333;
-            line-height: 1.6;
+            background-color: #fffcfc;
+            color: #2c2527;
+            line-height: 1.7;
             scroll-behavior: smooth;
         }
 
         /* --- Navigation Bar --- */
         nav {
             background-color: #ffffff;
-            padding: 0.8rem 2rem;
+            padding: 1rem 3rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
             position: sticky;
             top: 0;
             z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 20px rgba(191, 161, 171, 0.08);
         }
 
         .brand-container {
             display: flex;
             align-items: center;
-            gap: 1rem;
+            gap: 1.2rem;
         }
 
         .logo-img {
-            width: 60px;
-            height: 60px;
+            width: 55px;
+            height: 55px;
             object-fit: cover;
             border-radius: 50%;
             border: 2px solid #e5c4cd;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
         }
 
         nav .logo-text {
-            font-size: 1.6rem;
-            font-weight: bold;
+            font-size: 1.8rem;
+            font-weight: 700;
             color: #bfa1ab;
-            letter-spacing: 2px;
+            letter-spacing: 3px;
             text-transform: uppercase;
         }
 
@@ -63,207 +63,218 @@
         }
 
         nav ul li {
-            margin-left: 2rem;
+            margin-left: 2.5rem;
         }
 
         nav ul li a {
             text-decoration: none;
-            color: #555;
-            font-size: 1.1rem;
+            color: #5a4f52;
+            font-size: 1.05rem;
+            letter-spacing: 1px;
             transition: color 0.3s;
+            font-weight: 500;
         }
 
         nav ul li a:hover {
-            color: #e5c4cd;
+            color: #caa5b0;
         }
 
         /* --- Hero Section --- */
         .hero {
-            height: 75vh;
-            background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/cake1.jpg') no-repeat center center/cover;
+            height: 80vh;
+            background: linear-gradient(rgba(44, 37, 39, 0.35), rgba(44, 37, 39, 0.35)), url('images/cake1.jpg') no-repeat center center/cover;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
             color: #fff;
-            padding: 0 1rem;
+            padding: 0 1.5rem;
         }
 
         .hero h1 {
-            font-size: 4.5rem;
+            font-size: 5rem;
             margin-bottom: 0.5rem;
-            letter-spacing: 3px;
-            text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+            letter-spacing: 4px;
+            text-shadow: 2px 4px 10px rgba(0,0,0,0.3);
         }
 
         .hero h2 {
-            font-size: 1.8rem;
+            font-size: 2rem;
             font-weight: 300;
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
             font-style: italic;
-            text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+            letter-spacing: 2px;
+            text-shadow: 1px 2px 6px rgba(0,0,0,0.3);
         }
 
         .hero p {
-            font-size: 1.3rem;
-            margin-bottom: 2.5rem;
-            max-width: 700px;
-            text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+            font-size: 1.35rem;
+            margin-bottom: 3rem;
+            max-width: 750px;
+            font-family: 'Georgia', serif;
+            text-shadow: 1px 2px 6px rgba(0,0,0,0.3);
         }
 
         .btn {
             display: inline-block;
             background-color: #e5c4cd;
             color: #fff;
-            padding: 1rem 2.5rem;
+            padding: 1.1rem 2.8rem;
             text-decoration: none;
-            border-radius: 4px;
-            transition: background 0.3s;
-            font-size: 1rem;
-            letter-spacing: 1px;
+            border-radius: 50px;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
+            letter-spacing: 2px;
             text-transform: uppercase;
             font-weight: bold;
+            box-shadow: 0 4px 15px rgba(229, 196, 205, 0.4);
         }
 
         .btn:hover {
             background-color: #caa5b0;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(202, 165, 176, 0.5);
         }
 
         /* --- Section General Styling --- */
         section {
-            padding: 6rem 2rem;
-            max-width: 1400px;
+            padding: 7rem 2rem;
+            max-width: 1300px;
             margin: 0 auto;
         }
 
         .section-title {
             text-align: center;
-            font-size: 3rem;
-            margin-bottom: 4rem;
+            font-size: 3.2rem;
+            margin-bottom: 4.5rem;
             position: relative;
-            color: #444;
+            color: #3e3336;
+            letter-spacing: 1px;
         }
 
         .section-title::after {
             content: '';
             display: block;
-            width: 70px;
-            height: 3px;
+            width: 60px;
+            height: 2px;
             background-color: #e5c4cd;
-            margin: 0.8rem auto 0;
+            margin: 1rem auto 0;
         }
 
-        /* --- Our Story & Info Section --- */
+        /* --- Our Story Layout --- */
         .about-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 4rem;
+            grid-template-columns: 1.2fr 1fr;
+            gap: 5rem;
             align-items: start;
         }
 
         .about-content h3 {
-            font-size: 1.8rem;
-            margin-bottom: 1rem;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
             color: #bfa1ab;
+            letter-spacing: 0.5px;
         }
 
         .about-content p {
             font-size: 1.15rem;
-            color: #666;
+            color: #65585b;
             font-family: 'Georgia', serif;
-            margin-bottom: 1.5rem;
+            margin-bottom: 1.8rem;
         }
 
         .info-card {
-            background: #fff;
-            padding: 2.5rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.04);
-            border-left: 4px solid #e5c4cd;
+            background: #ffffff;
+            padding: 3rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(191, 161, 171, 0.06);
+            border-top: 4px solid #e5c4cd;
         }
 
         .info-card h4 {
             font-size: 1.3rem;
-            margin-bottom: 1rem;
-            color: #333;
+            margin-bottom: 1.2rem;
+            color: #3e3336;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
         }
 
         .info-card ul {
             list-style: none;
             font-family: 'Georgia', serif;
-            color: #555;
-            margin-bottom: 1.5rem;
+            color: #5a4f52;
+            margin-bottom: 2rem;
         }
 
         .info-card ul li {
-            margin-bottom: 0.6rem;
+            margin-bottom: 0.8rem;
+            font-size: 1.05rem;
         }
 
-        /* --- Menu & Price List Section Menu --- */
+        /* --- Pricing Section Menu --- */
         .price-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
             gap: 3rem;
-            margin-bottom: 3rem;
+            margin-bottom: 3.5rem;
         }
 
         .price-category {
             background: #ffffff;
-            padding: 2.5rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+            padding: 3rem 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(191, 161, 171, 0.05);
+            border: 1px solid rgba(229, 196, 205, 0.15);
         }
 
         .price-category h3 {
             font-size: 1.6rem;
             color: #bfa1ab;
             margin-bottom: 1.5rem;
-            border-bottom: 1px dashed #e5c4cd;
-            padding-bottom: 0.5rem;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
         }
 
         .price-item {
             display: flex;
             justify-content: space-between;
             align-items: baseline;
-            margin-bottom: 1.2rem;
+            margin-bottom: 1.4rem;
             font-family: 'Georgia', serif;
             font-size: 1.1rem;
         }
 
         .price-item .item-name {
-            color: #444;
+            color: #44383b;
             font-weight: 500;
         }
 
         .price-item .item-dots {
             flex-grow: 1;
-            border-bottom: 1px dotted #ddd;
-            margin: 0 10px;
+            border-bottom: 1px dotted #caa5b0;
+            margin: 0 12px;
+            opacity: 0.6;
         }
 
         .price-item .item-cost {
-            color: #333;
-            font-weight: bold;
+            color: #2c2527;
+            font-weight: 700;
             font-family: 'Playfair Display', serif;
         }
 
         .price-upgrade-box {
-            background: #fff0f2;
-            border: 1px dashed #e5c4cd;
-            padding: 1.5rem;
-            border-radius: 6px;
+            background: #fff3f5;
+            border: 1px solid rgba(229, 196, 205, 0.4);
+            padding: 1.8rem;
+            border-radius: 8px;
             text-align: center;
-            max-width: 600px;
+            max-width: 650px;
             margin: 0 auto;
             font-family: 'Georgia', serif;
             font-size: 1.1rem;
-            color: #555;
+            color: #5a4f52;
+            box-shadow: 0 4px 15px rgba(229, 196, 205, 0.1);
         }
 
         .price-upgrade-box strong {
@@ -272,117 +283,124 @@
             font-size: 1.2rem;
         }
 
-        /* --- Gallery Grid Layout --- */
+        /* --- Portfolio Gallery --- */
         .gallery-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2.5rem;
         }
 
         .gallery-item {
-            background: #fff;
-            border-radius: 8px;
+            background: #ffffff;
+            border-radius: 12px;
             overflow: hidden;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
-            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+            transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s ease;
         }
 
         .gallery-item:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(191, 161, 171, 0.18);
         }
 
         .gallery-item img {
             width: 100%;
-            height: 380px;
+            height: 400px;
             object-fit: cover;
             display: block;
         }
 
         .cake-info {
-            padding: 1.8rem;
+            padding: 2rem 1.5rem;
             text-align: center;
         }
 
         .cake-info h3 {
-            font-size: 1.5rem;
-            color: #333;
+            font-size: 1.4rem;
+            color: #3e3336;
             margin-bottom: 0.6rem;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
         }
 
         .cake-info p {
-            color: #888;
+            color: #7c6e72;
             font-size: 1rem;
             font-style: italic;
             font-family: 'Georgia', serif;
         }
 
-        /* --- Contact Form & Details --- */
+        /* --- Booking & Contact Form Layout --- */
         .contact-grid {
             display: grid;
-            grid-template-columns: 1fr 1.2fr;
-            gap: 4rem;
+            grid-template-columns: 1fr 1.3fr;
+            gap: 5rem;
         }
 
         .contact-details {
-            background: #fff;
-            padding: 3rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+            background: #ffffff;
+            padding: 3.5rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(191, 161, 171, 0.05);
         }
 
         .contact-details h3 {
-            font-size: 1.8rem;
+            font-size: 2rem;
             margin-bottom: 1.5rem;
             color: #bfa1ab;
         }
 
         .contact-link {
-            display: block;
-            color: #444;
+            display: flex;
+            align-items: center;
+            color: #44383b;
             text-decoration: none;
             font-family: 'Georgia', serif;
-            font-size: 1.1rem;
-            margin-bottom: 1.2rem;
-            transition: color 0.2s;
+            font-size: 1.15rem;
+            margin-bottom: 1.5rem;
+            transition: transform 0.2s, color 0.2s;
         }
 
         .contact-link:hover {
-            color: #e5c4cd;
+            color: #caa5b0;
+            transform: translateX(5px);
         }
 
         .contact-container {
-            background: #fff;
-            padding: 3rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+            background: #ffffff;
+            padding: 3.5rem;
+            border-radius: 12px;
+            box-shadow: 0 15px 40px rgba(191, 161, 171, 0.08);
+            border: 1px solid rgba(229, 196, 205, 0.2);
         }
 
         .form-group {
-            margin-bottom: 1.5rem;
+            margin-bottom: 1.8rem;
         }
 
         .form-group label {
             display: block;
-            margin-bottom: 0.5rem;
-            color: #555;
+            margin-bottom: 0.6rem;
+            color: #44383b;
             font-weight: 600;
             font-family: 'Georgia', serif;
+            font-size: 0.95rem;
         }
 
-        .form-group input, .form-group textarea {
+        .form-group input, .form-group textarea, .form-group select {
             width: 100%;
-            padding: 0.85rem;
-            border: 1px solid #eee;
-            border-radius: 4px;
+            padding: 1rem;
+            border: 1px solid #ebdbe0;
+            border-radius: 6px;
             font-size: 1rem;
             font-family: 'Georgia', serif;
+            background-color: #fffdfd;
+            transition: border-color 0.3s;
+            color: #3e3336;
         }
 
-        .form-group input:focus, .form-group textarea:focus {
+        .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
             outline: none;
-            border-color: #e5c4cd;
+            border-color: #caa5b0;
         }
 
         button.btn-submit {
@@ -391,67 +409,85 @@
             cursor: pointer;
             text-transform: uppercase;
             font-weight: bold;
+            padding: 1.2rem;
+            border-radius: 6px;
         }
 
         /* --- Terms & Conditions Section --- */
         .terms-container {
             background: #ffffff;
-            padding: 3rem;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+            padding: 3.5rem;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(191, 161, 171, 0.04);
             font-family: 'Georgia', serif;
-            color: #555;
+            color: #5a4f52;
+            border: 1px solid rgba(229, 196, 205, 0.1);
         }
 
         .terms-container h3 {
             font-family: 'Playfair Display', serif;
             color: #bfa1ab;
-            font-size: 1.6rem;
-            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 1.5px;
+            text-align: center;
         }
 
         .terms-container ul {
-            list-style-type: square;
-            padding-left: 1.5rem;
+            list-style-type: none;
         }
 
         .terms-container li {
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
             font-size: 1.05rem;
-            line-height: 1.7;
+            line-height: 1.8;
+            padding-left: 2rem;
+            position: relative;
+        }
+
+        .terms-container li::before {
+            content: "✦";
+            position: absolute;
+            left: 0;
+            color: #e5c4cd;
+            font-size: 1.2rem;
         }
 
         .terms-container strong {
-            color: #333;
+            color: #3e3336;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
         }
 
         /* --- Footer --- */
         footer {
-            background-color: #333;
+            background-color: #2c2527;
             color: #fff;
             text-align: center;
-            padding: 3rem;
+            padding: 4rem 2rem;
             font-size: 1rem;
-            margin-top: 5rem;
         }
 
         footer p {
-            color: #bbb;
+            color: #d1c7c9;
             font-family: 'Georgia', serif;
+            letter-spacing: 0.5px;
         }
 
-        /* --- Mobile Response Adjustments --- */
+        /* --- Responsive Viewport Tweaks --- */
         @media (max-width: 992px) {
-            .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 2rem; }
+            .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 3.5rem; }
+            section { padding: 5rem 1.5rem; }
+            .section-title { font-size: 2.6rem; margin-bottom: 3rem; }
         }
 
         @media (max-width: 768px) {
-            .hero h1 { font-size: 3rem; }
-            nav { flex-direction: column; gap: 1rem; padding: 1rem; }
-            nav ul li { margin: 0 1rem; }
-            .brand-container { flex-direction: column; gap: 0.3rem; }
+            .hero h1 { font-size: 3.2rem; }
+            .hero h2 { font-size: 1.5rem; }
+            nav { flex-direction: column; gap: 1.2rem; padding: 1.5rem; }
+            nav ul li { margin: 0 1.2rem; }
+            .brand-container { flex-direction: column; gap: 0.4rem; }
         }
     </style>
 </head>
@@ -464,79 +500,79 @@
         </div>
         <ul>
             <li><a href="#home">Home</a></li>
-            <li><a href="#about">Our Story</a></li>
+            <li><a href="#about">Story</a></li>
             <li><a href="#menu">Pricing</a></li>
-            <li><a href="#gallery">Portfolio</a></li>
-            <li><a href="#contact">Order</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Inquire</a></li>
         </ul>
     </nav>
 
     <header class="hero" id="home">
         <h1>Delicake</h1>
         <h2>Confection Made to Perfection</h2>
-        <p>Premium, handcrafted custom cakes tailored for your most precious milestones.</p>
-        <a href="#menu" class="btn">View Menu & Pricing</a>
+        <p>Designing sophisticated, bespoke custom cakes that taste as drop-dead gorgeous as they look.</p>
+        <a href="#menu" class="btn">Explore The Menu</a>
     </header>
 
     <section id="about">
-        <h2 class="section-title">Established 2022</h2>
+        <h2 class="section-title">The Art of Baking</h2>
         <div class="about-grid">
             <div class="about-content">
-                <h3>Meet the Baker</h3>
-                <p>Welcome to Delicake, founded and led by Head Baker Nyasha Marijeni. Operating from our specialized studio in Bulawayo, Zimbabwe, we have spent years tuning confections into flawless visual and edible art forms.</p>
-                <p>Every cake, cupcake, and pastry creation is completely handcrafted using strictly premium ingredients to ensure your event leaves an extraordinary impression.</p>
+                <h3>Bespoke Baking from Bulawayo</h3>
+                <p>Welcome to Delicake, founded and artfully directed by Head Baker Nyasha Marijeni. Operating from our specialized private studio in Bulawayo, Zimbabwe, we treat custom cake design as fine visual and edible art.</p>
+                <p>Established in 2022, our core mission is simple: to make your celebration memorable. Every individual tier, floral arrangement, and delicate palette stroke is made exclusively by hand with premium ingredients.</p>
             </div>
             <div class="info-card">
-                <h4>Studio Hours</h4>
+                <h4>Studio Consultations</h4>
                 <ul>
                     <li><strong>Mon, Tue, Thu, Fri, Sat:</strong> 9:00 AM – 4:00 PM</li>
-                    <li><strong>Wednesday & Sunday:</strong> Closed</li>
-                    <li><em>*Consultations and pick-ups are strictly by appointment.</em></li>
+                    <li><strong>Wednesday & Sunday:</strong> Closed to Public</li>
+                    <li><em>*Pick-ups and menu tastings are scheduled strictly by appointment.</em></li>
                 </ul>
-                <h4>Studio Location</h4>
-                <p style="font-family: 'Georgia', serif; color:#555;">Bulawayo, Zimbabwe</p>
+                <h4>Studio Coordinates</h4>
+                <p style="font-family: 'Georgia', serif; color:#65585b;">Bulawayo, Zimbabwe</p>
             </div>
         </div>
     </section>
 
-    <section id="menu" style="background: #fff5f6;">
-        <h2 class="section-title">Our Investment Guide</h2>
+    <section id="menu" style="background: #fff6f7;">
+        <h2 class="section-title">The Investment Menu</h2>
         
         <div class="price-grid">
             <div class="price-category">
                 <h3>Gourmet Cupcakes</h3>
                 <div class="price-item">
-                    <span class="item-name">6 Cupcakes Set</span>
+                    <span class="item-name">6 Cupcakes Boutique Pack</span>
                     <span class="item-dots"></span>
                     <span class="item-cost">$8</span>
                 </div>
                 <div class="price-item">
-                    <span class="item-name">12 Cupcakes Set</span>
+                    <span class="item-name">12 Cupcakes Celebration Pack</span>
                     <span class="item-dots"></span>
                     <span class="item-cost">$15</span>
                 </div>
             </div>
 
             <div class="price-category">
-                <h3>Sponge Cakes</h3>
-                <p style="font-family:'Georgia', serif; font-style:italic; color:#888; font-size:0.95rem; margin-bottom:1rem;">Includes standard Vanilla and Chocolate layers</p>
+                <h3>Artisan Sponge Tiers</h3>
+                <p style="font-family:'Georgia', serif; font-style:italic; color:#7c6e72; font-size:0.95rem; margin-bottom:1.5rem;">Includes traditional Vanilla Bean & Rich Chocolate cake bases</p>
                 <div class="price-item">
-                    <span class="item-name">6 inch (3 Layers)</span>
+                    <span class="item-name">6 inch (3 Premium Layers)</span>
                     <span class="item-dots"></span>
                     <span class="item-cost">$30</span>
                 </div>
                 <div class="price-item">
-                    <span class="item-name">7 inch (3 Layers)</span>
+                    <span class="item-name">7 inch (3 Premium Layers)</span>
                     <span class="item-dots"></span>
                     <span class="item-cost">$40</span>
                 </div>
                 <div class="price-item">
-                    <span class="item-name">8 inch (3 Layers)</span>
+                    <span class="item-name">8 inch (3 Premium Layers)</span>
                     <span class="item-dots"></span>
                     <span class="item-cost">$45</span>
                 </div>
                 <div class="price-item">
-                    <span class="item-name">10 inch (3 Layers)</span>
+                    <span class="item-name">10 inch (3 Premium Layers)</span>
                     <span class="item-dots"></span>
                     <span class="item-cost">$60</span>
                 </div>
@@ -545,12 +581,12 @@
             <div class="price-category">
                 <h3>Traditional Fruit Cakes</h3>
                 <div class="price-item">
-                    <span class="item-name">6 inch Cake</span>
+                    <span class="item-name">6 inch Spiced Fruit Cake</span>
                     <span class="item-dots"></span>
                     <span class="item-cost">$40</span>
                 </div>
                 <div class="price-item">
-                    <span class="item-name">8 inch Cake</span>
+                    <span class="item-name">8 inch Spiced Fruit Cake</span>
                     <span class="item-dots"></span>
                     <span class="item-cost">$50</span>
                 </div>
@@ -558,75 +594,89 @@
         </div>
 
         <div class="price-upgrade-box">
-            ✨ Upgrade your sponge layers to premium <strong>Red Velvet / Carrot / Blackforest</strong> for just <strong>+$5 extra</strong>.
+            ✨ Elevate your sponge layers to our luxury flavors: <strong>Red Velvet / Rich Carrot / Classic Blackforest</strong> for an extra <strong>+$5</strong>.
         </div>
     </section>
 
     <section id="gallery">
-        <h2 class="section-title">Our Masterpieces</h2>
+        <h2 class="section-title">The Masterpieces</h2>
         <div class="gallery-grid">
             <div class="gallery-item">
                 <img src="images/cake1.jpg" alt="Elegant Monogram Trio Wedding Cakes">
                 <div class="cake-info">
                     <h3>Elegant Monogram Trio</h3>
-                    <p>Clean white texture with stylized initial detailing and pearl dragées.</p>
+                    <p>Flawless stark white frosting textures adorned with refined crest scrollwork.</p>
                 </div>
             </div>
             <div class="gallery-item">
                 <img src="images/cake2.jpg" alt="Copper Ombre Wedding Cake with Warm Florals">
                 <div class="cake-info">
                     <h3>Warm Autumn Wedding Tier</h3>
-                    <p>Sophisticated copper metallic band offset by warm terracotta blooms.</p>
+                    <p>Sophisticated multi-tier metallic copper gradient anchored by organic blooms.</p>
                 </div>
             </div>
             <div class="gallery-item">
                 <img src="images/cake3.jpg" alt="Peppa Pig Fairy and Rainbow Themed Birthday Cake">
                 <div class="cake-info">
                     <h3>Peppa Pig Fairy Magic</h3>
-                    <p>A playful bento birthday style complete with soft pastel rainbow clouds.</p>
+                    <p>Whimsical pastel fantasy scape crafted specifically for memorable bento birthdays.</p>
                 </div>
             </div>
             <div class="gallery-item">
                 <img src="images/cake4.jpg" alt="Textured White Birthday Cake with Gold Crown and Pearls">
                 <div class="cake-info">
                     <h3>Royal Crown Celebration</h3>
-                    <p>Elegant white textures framed beautifully with a golden crown topper.</p>
+                    <p>Intricate, royal textured borders topped with a striking miniature gold tiara.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <section id="contact">
-        <h2 class="section-title">Secure Your Date</h2>
+        <h2 class="section-title">Commission Your Cake</h2>
         <div class="contact-grid">
             <div class="contact-details">
-                <h3>Contact Details</h3>
-                <p style="font-family: 'Georgia', serif; color:#666; margin-bottom:1.5rem;">Have questions or looking to book a custom order consultation? Reach out directly using any of our professional lines:</p>
+                <h3>Studio Desk</h3>
+                <p style="font-family: 'Georgia', serif; color:#65585b; margin-bottom:2rem;">Ready to save your date? Reach our private studio desks directly or fill out our structural order inquiry form:</p>
                 
-                <a href="tel:+263715019907" class="contact-link">📞 Call: +263 71 501 9907</a>
-                <a href="https://wa.me/263775805912" target="_blank" class="contact-link">💬 WhatsApp: +263 77 580 5912</a>
+                <a href="tel:+263715019907" class="contact-link">📞 Call Studio: +263 71 501 9907</a>
+                <a href="https://wa.me/263775805912" target="_blank" class="contact-link">💬 WhatsApp Concierge: +263 77 580 5912</a>
                 <a href="mailto:nyashamarijeni3031@gmail.com" class="contact-link">✉️ Email: nyashamarijeni3031@gmail.com</a>
             </div>
 
             <div class="contact-container">
                 <form action="#" method="POST">
                     <div class="form-group">
-                        <label for="name">Your Name</label>
-                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
                     </div>
                     <div class="form-group">
                         <label for="email">Email Address</label>
-                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        <input type="email" id="email" name="email" required placeholder="name@domain.com">
                     </div>
                     <div class="form-group">
-                        <label for="event-date">Date of Event</label>
+                        <label for="cake-type">Desired Size or Package</label>
+                        <select id="cake-type" name="cake-type">
+                            <option value="6-cupcakes">6 Gourmet Cupcakes Pack</option>
+                            <option value="12-cupcakes">12 Gourmet Cupcakes Pack</option>
+                            <option value="6-sponge">6" Sponge Tier (3 Layers)</option>
+                            <option value="7-sponge">7" Sponge Tier (3 Layers)</option>
+                            <option value="8-sponge">8" Sponge Tier (3 Layers)</option>
+                            <option value="10-sponge">10" Sponge Tier (3 Layers)</option>
+                            <option value="6-fruit">6" Spiced Fruit Cake</option>
+                            <option value="8-fruit">8" Spiced Fruit Cake</option>
+                            <option value="custom">Completely Custom Multi-Tier Concept</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="event-date">Date of Celebration</label>
                         <input type="date" id="event-date" name="event-date" required>
                     </div>
                     <div class="form-group">
-                        <label for="message">Design Details & Required Servings</label>
-                        <textarea id="message" name="message" rows="5" required placeholder="Describe your theme, chosen size/flavor from our pricelist, and custom detail ideas..."></textarea>
+                        <label for="message">Design Details, Theme & Flavor Preference</label>
+                        <textarea id="message" name="message" rows="4" required placeholder="Share your colors, flavor thoughts (e.g. standard vanilla/chocolate or premium upgrade like Red Velvet), and guest counts..."></textarea>
                     </div>
-                    <button type="submit" class="btn btn-submit">Submit Inquiry</button>
+                    <button type="submit" class="btn btn-submit">Send Studio Request</button>
                 </form>
             </div>
         </div>
@@ -634,19 +684,18 @@
 
     <section id="terms" style="padding-top: 0;">
         <div class="terms-container">
-            <h3>Terms & Conditions</h3>
+            <h3>Studio Policies</h3>
             <ul>
-                <li><strong>Booking & Deposits:</strong> All custom orders require a **50% non-refundable deposit** to book and secure your date on our calendar. The remaining balance must be settled strictly before or upon order collection/delivery.</li>
-                <li><strong>Lead Times & Availability:</strong> Because our premium designs are meticulously handcrafted, slots are limited and filled on a first-come, first-served basis. Early bookings are strongly encouraged.</li>
-                <li><strong>Changes & Cancellations:</strong> Any modifications to design, size, or flavor must be submitted at least **7 days prior to the event date**. Cancellations made within this window forfeit the initial 50% deposit.</li>
-                <li><strong>Collection & Transport Liability:</strong> Pick-ups are strictly by appointment during studio trading hours. Once the order leaves the studio premises safely in the customer's possession, Delicake is no longer responsible or liable for any transport damages or temperature mismatches.</li>
+                <li><strong>Securing Your Calendar Slot:</strong> Due to the handcrafted nature of our premium designs, dates are strictly locked in only upon receipt of a **50% non-refundable deposit**. Final balances must be cleared prior to or during pick-up.</li>
+                <li><strong>Design Adjustments:</strong> To ensure layout continuity and component prep times, changes regarding flavor profiles, decorations, or tier scaling must be submitted at least **7 days prior** to the event.</li>
+                <li><strong>Collection Protocol:</strong> Pick-ups occur safely at our private Bulawayo studio by designated appointments. Once an art tier leaves our counter in pristine structure, transit mechanics and thermal management are the sole responsibility of the customer.</li>
             </ul>
         </div>
     </section>
 
     <footer>
         <p>&copy; 2026 Delicake Boutique. All rights reserved.</p>
-        <p style="margin-top: 0.8rem; font-size: 0.85rem;">Premium Handcrafted Custom Cakes | Bulawayo, Zimbabwe</p>
+        <p style="margin-top: 0.8rem; font-size: 0.85rem; letter-spacing: 1px; text-transform: uppercase; color: #caa5b0;">Premium Handcrafted Custom Cakes | Bulawayo, Zimbabwe</p>
     </footer>
 
 </body>
